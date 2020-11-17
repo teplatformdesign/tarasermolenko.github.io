@@ -47,3 +47,6 @@ h2 {
 
 }
 
+#myimage:hover {
+    background-image: url(images/dashboard.gif);
+}
