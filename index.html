@@ -112,14 +112,26 @@
 
             <div class="w-100 mt-5 mb-5"></div>
             <div class="col">
-              <img src="images/dashboard.gif" style="width: 600px;">
+              <img src="images/dashboard.png" style="width: 600px;" id="myImg">
+              <script>
+                $(function() {
+                    $("#myImg").hover(
+                        function() {
+                            $(this).attr("src", "images/dashboard.gif");
+                        },
+                        function() {
+                            $(this).attr("src", "images/dashboard.png");
+                        }                         
+                    );                  
+                });
+            </script>
             </div>
             <div class="col">
               <h3 style="color:	chartreuse"> Python Dashboard </h3>
               <p style="margin-top:2%;" >
-                > The first major application I built after my first OOP school course.
+                > Firts major project. Personal dashboard that tracks your finaces, to dos, appointments and displays them niceley.
                 <br><br>
-                > Description.
+                > Description. (PROJECT IN PROGRESS)
                 </p>
             </div>
           </div>
